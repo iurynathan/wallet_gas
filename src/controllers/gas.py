@@ -9,7 +9,7 @@ app, api = server.app, server.api
 
 wallet = ''
 
-@api.route('/gastotal', methods=['GET', 'POST'])
+@api.route('/', methods=['GET', 'POST'])
 class GasTotal(Resource):
   def get(self, ):
     return 200
